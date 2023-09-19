@@ -1,0 +1,33 @@
+# Visual Studio temporary files
+.vscode/
+.vs/
+/bin/
+/obj/
+
+# User-specific files and settings
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# NuGet packages
+packages/
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+
+# Compiled binary files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
