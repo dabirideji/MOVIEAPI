@@ -125,7 +125,7 @@ public class MovieController : ControllerBase
         THIS METHOD IS MEANT TO ADD A MOVIES TO THE DATABASE
         -----------------------------------------------------------------------------------------------------------------------
 
-        */
+    */
 
 
     [HttpPost]
@@ -152,6 +152,8 @@ public class MovieController : ControllerBase
             response.ResponseMessage = "Data Saved Successfully";
             response.ResponseCode = "00";
             response.Data = response.ResponseMessage;
+            _logger.LogInformation("Data Saved Successfully");
+
             return Ok(response);
             // response.Data = movie;
             // return StatusCode(201,response);
